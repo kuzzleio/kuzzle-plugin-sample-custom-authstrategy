@@ -1,0 +1,29 @@
+{
+  "name": "kuzzle-plugin-sampe-custom-authstrategy",
+  "version": "1.0.0",
+  "description": "Sample Kuzzle plugin to log-in users with a custom strategy",
+  "main": "./lib/index.js",
+  "keywords": [
+    "kuzzle",
+    "plugin",
+    "auth",
+    "passportjs"
+  ],
+  "author": {
+    "name": "Kuzzle Team"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "passport": "0.4.0",
+    "passport-strategy": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  },
+  "maintainers": [
+    {
+      "name": "kuzzle",
+      "email": "support@kuzzle.io"
+    }
+  ]
+}
